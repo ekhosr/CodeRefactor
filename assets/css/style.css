@@ -136,12 +136,12 @@ p {
     color: #ffffff;
 }
 
-
+/*set the maximum height of img elements in .contents class to 200px*/
 .contents img {
     max-height: 200px;
 }
 
-
+/*set 20px margin-bottom and 36px font-size for all h2 elements with .contents class*/
 .contents h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -150,7 +150,7 @@ p {
 
 .footer {
     padding: 30px;
-    clear: both;
+    clear: both; /*footer is pushed below both left and right floated elements*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
